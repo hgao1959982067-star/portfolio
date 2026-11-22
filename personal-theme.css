@@ -1,0 +1,10 @@
+body{background:radial-gradient(ellipse at 14% 4%,#6b59cd85,transparent 37%),radial-gradient(ellipse at 90% 18%,#138ca857,transparent 35%),radial-gradient(ellipse at 55% 80%,#5b2d9d40,transparent 45%),linear-gradient(155deg,#111332,#101a38 48%,#0a142b);background-attachment:fixed;color:#f0eafa}
+nav{background:#0d122bd9;border-bottom:1px solid #ffffff24}
+.hero{position:relative;isolation:isolate;overflow:hidden;min-height:75vh}
+.hero img{box-shadow:0 28px 75px #08041580;outline:1px solid #e7deff33}
+.eyebrow{color:#d0bcff}
+.button{background:#d0bcff;color:#23005c;border-radius:4px}
+.button:hover{background:#e9ddff}
+.category{border-color:#e7deff33}
+#about{background:#101835c9;border-top:1px solid #e7deff33}
+footer{background:#0a1226e8}

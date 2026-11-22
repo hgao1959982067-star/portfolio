@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="zh-CN"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-surface-variant":"#cbc3d7","outline-variant":"#494454","surface-container-low":"#1d1637","on-tertiary-fixed-variant":"#004d65","inverse-primary":"#6d3bd7","on-secondary-fixed":"#001257","tertiary":"#6ad3ff","surface-dim":"#150e2f","secondary-container":"#0040e8","error-container":"#93000a","on-primary-fixed":"#23005c","secondary-fixed-dim":"#b9c3ff","surface-container":"#211a3c","on-primary":"#3c0091","on-tertiary":"#003546","surface-tint":"#d0bcff","tertiary-container":"#009cc9","secondary":"#b9c3ff","surface-variant":"#373052","outline":"#958ea0","on-secondary-fixed-variant":"#0034c0","surface-container-lowest":"#0f0829","on-surface":"#e7deff","background":"#150e2f","on-background":"#e7deff","primary":"#d0bcff","tertiary-fixed":"#bee9ff","on-primary-fixed-variant":"#5516be","on-secondary":"#00228a","inverse-surface":"#e7deff","secondary-fixed":"#dde1ff","on-tertiary-container":"#002e3d","surface-container-high":"#2c2547","surface":"#150e2f","on-error-container":"#ffdad6","tertiary-fixed-dim":"#6ad3ff","on-tertiary-fixed":"#001f2a","inverse-on-surface":"#322b4e","primary-fixed-dim":"#d0bcff","surface-container-highest":"#373052","error":"#ffb4ab","on-primary-container":"#340080","surface-bright":"#3b3457","primary-fixed":"#e9ddff","on-error":"#690005","on-secondary-container":"#c2cbff","primary-container":"#a078ff"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin-tablet":"2rem","margin":"4rem","gutter":"1.5rem","gutter-mobile":"1rem","space-xs":"0.25rem","space-md":"1rem","margin-mobile":"1.25rem","space-xxl":"4rem","space-xl":"2.5rem","space-sm":"0.5rem","space-lg":"1.5rem"},fontFamily:{"display-hero":["Plus Jakarta Sans"],"label-mono":["Noto Sans"],"body-lg":["Noto Sans"],"display-hero-mobile":["Plus Jakarta Sans"],"label-caps":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"title-editorial":["Plus Jakarta Sans"],"body-md":["Noto Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-sm":["Noto Sans"],"headline-lg":["Plus Jakarta Sans"]},fontSize:{"display-hero":["72px",{"lineHeight":"80px","letterSpacing":"-0.04em","fontWeight":"800"}],"label-mono":["12px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"500"}],"body-lg":["18px",{"lineHeight":"30px","letterSpacing":"0em","fontWeight":"400"}],"display-hero-mobile":["40px",{"lineHeight":"48px","letterSpacing":"-0.03em","fontWeight":"800"}],"label-caps":["11px",{"lineHeight":"16px","letterSpacing":"0.12em","fontWeight":"700"}],"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"title-editorial":["16px",{"lineHeight":"24px","letterSpacing":"0.08em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"26px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg-mobile":["30px",{"lineHeight":"38px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"-0.02em","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"400"}],"headline-lg":["44px",{"lineHeight":"52px","letterSpacing":"-0.03em","fontWeight":"700"}]}}}};</script><style id="portfolio-atmosphere">html{background:#0b1028!important}body{background:radial-gradient(ellipse at 14% 4%,rgba(107,89,205,.52),transparent 37%),radial-gradient(ellipse at 90% 18%,rgba(19,140,168,.34),transparent 35%),radial-gradient(ellipse at 55% 80%,rgba(91,45,157,.25),transparent 45%),linear-gradient(155deg,#111332,#101a38 48%,#0a142b)!important;background-attachment:fixed!important}main.bg-surface,body.bg-surface{background-color:transparent!important}header.bg-surface-container-lowest\/80{background-color:#0d122bd9!important}footer.bg-surface-container-lowest{background-color:#0a1226e8!important}</style></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary selection:text-on-primary min-h-screen flex flex-col"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin flex items-center justify-between"><div class="flex items-center gap-space-md"><img alt="GAO HENG Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrDQcd9Mneg2Odtnj22E_F_7E9F1biMQiIpgwhL1_RDoMSVHLIQmnYc9vBDreg1GEeNjUzI1_euZZvYAuH03kbPDtIbR3ahp0ANrF_MYPu1yIE9_Z8PmHHBJoWlWp2QGj3K76Eay0mqdknPNFtDnS7uaH9SDcklndIfEz8EPlvmP2iEFfB-pY1dz0LiEDYML8Yw9WlhOPpq_WoTAsMXbTpuYxum98THIciO2jxW2FT-M"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm font-bold tracking-tight text-on-surface">GAO HENG</span><span class="font-label-caps text-label-caps text-tertiary uppercase tracking-widest">AI内容创作者</span></div></div><nav class="hidden md:flex items-center gap-space-lg" data-active-classes="text-on-surface font-bold"><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors tracking-widest uppercase" data-path="home" href="index.html">首页</a><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors tracking-widest uppercase" data-path="about" href="about.html">关于我</a><div class="relative group flex items-center gap-space-xs cursor-pointer"><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors tracking-widest uppercase" data-path="works" href="works.html">作品</a><span class="material-symbols-outlined text-[16px] text-on-surface-variant group-hover:text-on-surface transition-transform group-hover:rotate-180">expand_more</span><div class="absolute top-full left-0 pt-space-xs hidden group-hover:block"><div class="bg-surface-container-high/95 backdrop-blur-xl rounded-lg p-space-sm shadow-[0_12px_32px_-8px_rgba(0,0,0,0.5)] flex flex-col min-w-[140px]"><a class="px-space-md py-space-xs font-label-caps text-label-caps text-on-surface-variant hover:bg-surface-container hover:text-on-surface rounded transition-colors uppercase" data-path="design" href="design.html">设计</a><a class="px-space-md py-space-xs font-label-caps text-label-caps text-on-surface-variant hover:bg-surface-container hover:text-on-surface rounded transition-colors uppercase" data-path="video" href="video.html">视频</a></div></div></div><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors tracking-widest uppercase" data-path="contact" href="contact.html">联系</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center px-space-lg py-space-sm rounded-lg bg-primary text-on-primary font-title-editorial text-title-editorial hover:bg-primary-fixed hover:text-on-primary-fixed transition-colors" data-path="contact" href="contact.html">联系合作</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 flex-grow bg-surface relative"><div class="flex flex-col w-full">
+<!-- Subtle Ambient Glow Node Behind Hero Header -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[720px] h-[320px] bg-primary/10 rounded-full blur-[140px] pointer-events-none"></div>
+<div class="absolute top-24 -left-32 w-[400px] h-[400px] bg-tertiary/10 rounded-full blur-[160px] pointer-events-none"></div>
+<!-- Main Container Container with Max Width & Margins -->
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin pt-space-lg pb-space-xxl flex flex-col gap-space-xxl">
+<!-- 1. Breadcrumb, Navigation Helper & Tag Header -->
+<section class="flex flex-col gap-space-md pt-space-sm">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md">
+<!-- Breadcrumb Hierarchy -->
+<div class="flex items-center flex-wrap gap-space-xs font-label-mono text-label-mono text-outline">
+<a class="hover:text-tertiary transition-colors flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-[14px]">grid_view</span>
+<span>作品</span>
+</a>
+<span class="text-outline-variant">/</span>
+<span class="text-on-surface-variant">01 AI影视与剧情短片 (AI FILM &amp; STORYTELLING)</span>
+<span class="text-outline-variant">/</span>
+<span class="text-primary font-bold tracking-wider">RE-GENESIS 《重构纪元》</span>
+</div>
+<!-- Quick Return Button -->
+<a class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded bg-surface-container hover:bg-surface-container-high text-on-surface font-label-caps text-label-caps tracking-widest uppercase transition-all shadow-sm hover:shadow-[0_0_16px_rgba(208,188,255,0.15)] group self-start lg:self-auto" href="#">
+<span class="material-symbols-outlined text-[16px] text-tertiary group-hover:-translate-x-1 transition-transform">arrow_back</span>
+<span>返回作品列表</span>
+</a>
+</div>
+<!-- Spec Tagline Pill -->
+<div class="flex items-center gap-space-sm flex-wrap">
+<span class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-surface-container-low text-tertiary font-label-caps text-label-caps">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary animate-pulse"></span>
+            AI电影短片
+          </span>
+<span class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-surface-container-low text-primary font-label-mono text-label-mono">
+<span class="material-symbols-outlined text-[13px]">bolt</span>
+            RUNWAY GEN-3 ALPHA × KLING 1.5 × TOPAZ 4K
+          </span>
+<span class="inline-flex items-center px-space-sm py-space-xs rounded-full bg-surface-container-low text-on-surface-variant font-label-mono text-label-mono">
+            21:9 CINEMASCOPE 4K MASTER
+          </span>
+</div>
+</section>
+<!-- 2. Project Title & Detailed Metadata Cards -->
+<section class="flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-xs max-w-4xl">
+<div class="flex items-baseline gap-space-md flex-wrap">
+<h1 class="font-headline-lg text-headline-lg font-bold text-on-surface tracking-tight">
+              《重构纪元 RE-GENESIS》
+            </h1>
+<span class="font-label-mono text-label-mono text-tertiary uppercase tracking-widest px-space-sm py-0.5 rounded bg-surface-container-low">
+              2024年精选
+            </span>
+</div>
+<p class="font-title-editorial text-title-editorial text-primary tracking-wide">
+            全流程AI生成科幻概念短片
+          </p>
+<p class="font-body-lg text-body-lg text-on-surface-variant pt-space-xs leading-relaxed">
+            探索大语言模型（LLM）与扩散视频动力学交织下的多模态视听边界。从零构建赛博纪元的世界观剧本与分镜头系统，运用多模态引导动态摄像机运镜控制（Camera Trajectory Control），突破文字到工业级 65mm 宽银幕胶片视觉的无缝创作闭环。
+          </p>
+</div>
+<!-- 4-Column Metadata Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Meta 1 -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col gap-space-xs shadow-sm hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-xs text-tertiary font-label-caps text-label-caps uppercase tracking-widest">
+<span class="material-symbols-outlined text-[16px]">aspect_ratio</span>
+<span>类别 / 规格 (Format)</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">科幻概念预告片</span>
+<span class="font-label-mono text-label-mono text-on-surface-variant">4K UHD 21:9 宽银幕 / 02:45 时长</span>
+</div>
+<!-- Meta 2 -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col gap-space-xs shadow-sm hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-xs text-primary font-label-caps text-label-caps uppercase tracking-widest">
+<span class="material-symbols-outlined text-[16px]">psychology</span>
+<span>角色职责 (Role)</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">导演 / 视觉总监</span>
+<span class="font-label-mono text-label-mono text-on-surface-variant">导演 / 提示词 / 特效与调色</span>
+</div>
+<!-- Meta 3 -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col gap-space-xs shadow-sm hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-xs text-tertiary font-label-caps text-label-caps uppercase tracking-widest">
+<span class="material-symbols-outlined text-[16px]">hub</span>
+<span>工具管线 (Pipeline)</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">Runway + Kling 1.5</span>
+<span class="font-label-mono text-label-mono text-on-surface-variant">Midjourney v6 + PR + AE + Topaz</span>
+</div>
+<!-- Meta 4 -->
+<div class="bg-surface-container-low p-space-md rounded-lg flex flex-col gap-space-xs shadow-sm hover:bg-surface-container transition-colors">
+<div class="flex items-center gap-space-xs text-primary font-label-caps text-label-caps uppercase tracking-widest">
+<span class="material-symbols-outlined text-[16px]">graphic_eq</span>
+<span>音频与混音 (Sound Design)</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">Suno AI + Ableton</span>
+<span class="font-label-mono text-label-mono text-on-surface-variant">空间拟音 + 次低音合成重度混响</span>
+</div>
+</div>
+</section>
+<!-- 3. Cinematic Master Player Section (Hero Video Showcase) -->
+<section class="flex flex-col gap-space-xs">
+<div class="relative w-full rounded-xl overflow-hidden shadow-2xl bg-surface-container-lowest group">
+<!-- Video Frame 21:9 Aspect Ratio Canvas -->
+<div class="relative w-full aspect-[21/9] min-h-[380px] lg:min-h-[580px] flex items-center justify-center overflow-hidden">
+<!-- Simulated High-Def Video Artwork Frame -->
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.02]" data-alt="Cinematic still frame from the film Re-Genesis: a solitary futuristic astronaut in a glowing chrome and carbon exo-suit standing before an immense crystalline alien monolith inside a cavernous orbital structure. Deep cosmic void background illuminated with volumetric neon cyan fog and rich electric purple particle clouds, 65mm anamorphic wide shot, high contrast dramatic cinematic lighting, hyper-detailed textures." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKGS2QF4vNI4ewsGjjjFNSXwuT8luDZy2YLmRiSKzW-xn6L4sH6qtzRV8lvlHF-XdfSvspgHbSZsZhuWAh6Syf2yMZGoMv5eNouxbsQ4fZ8MMxzksttoVS6mUud_MXZ7VUBLBG3C6I-jiR7BAzWR6KX2hxY45dUD82F3YxpAq6UiEEAxJruiEEmxzfuV4Mb4Ftl1Eml0azrP3SrpCNrNEgQYUehpLv9c785pZIobs"/>
+<!-- Film Vignette & Anamorphic Scrim -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-transparent to-surface-container-lowest/40 pointer-events-none"></div>
+<div class="absolute inset-0 bg-radial from-transparent via-surface-container-lowest/30 to-surface-container-lowest/80 pointer-events-none"></div>
+<!-- Large Center Play Trigger Overlay -->
+<div class="relative z-20 flex flex-col items-center gap-space-md">
+<button aria-label="Play Re-Genesis Cinematic Video" class="w-20 h-20 md:w-24 md:h-24 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-[0_0_36px_rgba(208,188,255,0.45)] hover:scale-110 active:scale-95 transition-all cursor-pointer group/btn" id="master-play-btn">
+<span class="material-symbols-outlined text-[36px] md:text-[44px] translate-x-1 group-hover/btn:text-on-primary-fixed transition-colors">play_arrow</span>
+</button>
+<div class="flex items-center gap-space-xs px-space-md py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md">
+<span class="w-2 h-2 rounded-full bg-tertiary animate-ping"></span>
+<span class="font-label-caps text-label-caps text-on-surface tracking-widest">点击预览影片</span>
+</div>
+</div>
+<!-- On-Screen HUD Metadata Watermarks -->
+<div class="absolute top-4 left-6 z-10 flex items-center gap-space-sm pointer-events-none">
+<span class="font-label-mono text-label-mono text-tertiary bg-surface-container-lowest/80 backdrop-blur-md px-2 py-0.5 rounded">REC ● 24.00 FPS</span>
+<span class="font-label-mono text-label-mono text-outline bg-surface-container-lowest/80 backdrop-blur-md px-2 py-0.5 rounded">SHUTTER 1/48s</span>
+<span class="font-label-mono text-label-mono text-outline hidden md:inline-block bg-surface-container-lowest/80 backdrop-blur-md px-2 py-0.5 rounded">ISO 800 / DCI-P3</span>
+</div>
+<!-- Live Player Scrubbing & Controls Overlay (Docked at Bottom) -->
+<div class="absolute bottom-0 inset-x-0 z-20 p-space-md md:p-space-lg bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/90 to-transparent flex flex-col gap-space-xs">
+<!-- Progress Scrubber Bar with Chapter Stops -->
+<div class="w-full flex flex-col gap-1">
+<div class="relative w-full h-2 bg-surface-container-high rounded-full cursor-pointer overflow-hidden group/bar">
+<!-- Buffered track -->
+<div class="absolute inset-y-0 left-0 w-3/4 bg-surface-variant rounded-full"></div>
+<!-- Active play track -->
+<div class="absolute inset-y-0 left-0 w-[52%] bg-gradient-to-r from-tertiary via-primary to-primary rounded-full shadow-[0_0_12px_rgba(208,188,255,0.6)]"></div>
+<!-- Scrubber Thumb -->
+<div class="absolute top-1/2 -translate-y-1/2 left-[52%] w-3.5 h-3.5 bg-on-surface rounded-full shadow-md"></div>
+</div>
+<!-- Chapter Anchors -->
+<div class="flex items-center justify-between text-[10px] font-label-mono text-outline pt-0.5 px-0.5">
+<span class="text-tertiary">00:00 序幕: 机械深空</span>
+<span class="hover:text-on-surface transition-colors cursor-pointer">00:45 变异: 意识觉醒</span>
+<span class="text-primary font-semibold">01:30 冲突: 赛博方舟</span>
+<span class="hover:text-on-surface transition-colors cursor-pointer">02:15 终章: 纪元重构</span>
+</div>
+</div>
+<!-- Controls Toolbar -->
+<div class="flex items-center justify-between pt-space-xs flex-wrap gap-space-sm">
+<!-- Left Playback Info -->
+<div class="flex items-center gap-space-md">
+<button aria-label="Toggle Play" class="text-on-surface hover:text-primary transition-colors flex items-center">
+<span class="material-symbols-outlined text-[24px]">play_arrow</span>
+</button>
+<button aria-label="Rewind 10 Seconds" class="text-on-surface-variant hover:text-on-surface transition-colors flex items-center">
+<span class="material-symbols-outlined text-[20px]">replay_10</span>
+</button>
+<div class="font-label-mono text-label-mono text-on-surface flex items-center gap-1">
+<span class="text-tertiary font-bold">01:24</span>
+<span class="text-outline">/</span>
+<span class="text-on-surface-variant">02:45</span>
+</div>
+<!-- Volume Control -->
+<div class="hidden sm:flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-outline">volume_up</span>
+<div class="w-16 h-1 bg-surface-variant rounded-full relative">
+<div class="w-3/4 h-full bg-primary rounded-full"></div>
+</div>
+</div>
+</div>
+<!-- Right Format & Display Tools -->
+<div class="flex items-center gap-space-sm">
+<span class="px-space-xs py-0.5 rounded bg-primary text-on-primary font-label-caps text-[10px] tracking-wider font-bold">
+                    4K MASTER
+                  </span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container-high text-tertiary font-label-mono text-label-mono">
+                    DOLBY ATMOS
+                  </span>
+<button class="p-1 text-on-surface-variant hover:text-on-surface transition-colors" title="Speed Toggle">
+<span class="font-label-mono text-label-mono font-bold">1.0x</span>
+</button>
+<button class="p-1 text-on-surface-variant hover:text-on-surface transition-colors" title="Subtitles CC">
+<span class="material-symbols-outlined text-[18px]">closed_caption</span>
+</button>
+<button class="p-1 text-on-surface-variant hover:text-on-surface transition-colors" title="Picture in Picture">
+<span class="material-symbols-outlined text-[18px]">picture_in_picture_alt</span>
+</button>
+<button class="p-1 text-on-surface-variant hover:text-primary transition-colors" title="Fullscreen">
+<span class="material-symbols-outlined text-[20px]">fullscreen</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Technical Master Spec Footer Bar -->
+<div class="w-full bg-surface-container-low px-space-md py-space-xs rounded-b-lg flex flex-col md:flex-row items-center justify-between gap-space-xs text-outline font-label-mono text-label-mono">
+<div class="flex items-center gap-space-sm flex-wrap">
+<span class="text-tertiary">ENCODING:</span>
+<span>PRORES 422 HQ</span>
+<span>•</span>
+<span>3840×1646 CINEMASCOPE</span>
+<span>•</span>
+<span>HDR10 / DCI-P3 COLOR SPACE</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span class="text-on-surface-variant">AI MOTION INTERPOLATION: 60.00 FPS RIFE</span>
+</div>
+</div>
+</section>
+<!-- 4. Creative Concept & Narrative Arc (创意构思与叙事框架) -->
+<section class="flex flex-col gap-space-lg">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-caps text-label-caps text-tertiary tracking-widest uppercase">创作理念与视觉体系</span>
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface">创意构思与叙事框架</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Card 1: Core Thesis -->
+<div class="bg-surface-container-low p-space-xl rounded-xl flex flex-col gap-space-md shadow-md relative overflow-hidden group">
+<div class="absolute -right-10 -bottom-10 w-44 h-44 bg-primary/10 rounded-full blur-3xl pointer-events-none group-hover:bg-primary/20 transition-all"></div>
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">token</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-mono text-label-mono text-primary uppercase tracking-widest">第一章 · 创作理念</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">概念核心与哲学思考 (Core Thesis &amp; Worldbuilding)</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              短片假定在后人类纪元，自主演化的人工智能意识与碳基文明遗存发生了跨越光年的量子纠缠。创作的核心挑战在于：在完全摒弃传统实拍摄影棚、绿幕演员以及繁复三维手工建模的前提下，如何单纯依靠**拓扑结构提示词（Prompt Topology）**与**潜在扩散动力学（Latent Diffusion Dynamics）**，打造出具备好莱坞硬科幻工业质感与沉浸情绪张力的视觉神作。
+            </p>
+<div class="pt-space-xs flex items-center gap-space-sm flex-wrap font-label-mono text-label-mono text-tertiary">
+<span class="px-space-sm py-1 rounded bg-surface-container">#后人类哲学</span>
+<span class="px-space-sm py-1 rounded bg-surface-container">#自演化意识</span>
+<span class="px-space-sm py-1 rounded bg-surface-container">#纯文本空间驱动</span>
+</div>
+</div>
+<!-- Card 2: Aesthetic Language -->
+<div class="bg-surface-container-low p-space-xl rounded-xl flex flex-col gap-space-md shadow-md relative overflow-hidden group">
+<div class="absolute -right-10 -bottom-10 w-44 h-44 bg-tertiary/10 rounded-full blur-3xl pointer-events-none group-hover:bg-tertiary/20 transition-all"></div>
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[28px]">palette</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-mono text-label-mono text-tertiary uppercase tracking-widest">第二章 · 色彩语言</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">视听语汇与色彩美学 (Aesthetic Language &amp; Color Grammar)</h3>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              确立了**“冷凝青蓝（Cryo-Cyan）+ 电光幻紫（Electric Orchid）”**的高反差双色温调色体系。青蓝主轴代表冰冷枯寂的深空真空与机械理性的绝对秩序；高饱和度的电光紫调则象征觉醒中的量子神经网络与不可预知的生命畸变。辅以微光粒子散射与高光柔和滚降，营造兼具末世孤独感与超现实未来科技崇高感。
+            </p>
+<!-- Palette visualizer strip -->
+<div class="pt-space-xs flex items-center gap-2">
+<div class="h-6 flex-1 rounded bg-[#05001F] flex items-center justify-center font-label-mono text-[9px] text-outline">VOID #05001F</div>
+<div class="h-6 flex-1 rounded bg-[#13103A] flex items-center justify-center font-label-mono text-[9px] text-outline">DEEP #13103A</div>
+<div class="h-6 flex-1 rounded bg-primary flex items-center justify-center font-label-mono text-[9px] text-on-primary font-bold">PURPLE #8B5CF6</div>
+<div class="h-6 flex-1 rounded bg-tertiary flex items-center justify-center font-label-mono text-[9px] text-on-tertiary font-bold">CYAN #27C9FF</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Storyboard & Shot Breakdown Gallery (动态分镜与关键镜头推演) -->
+<section class="flex flex-col gap-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-caps text-label-caps text-primary tracking-widest uppercase">动态分镜展示</span>
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface">分镜与镜头推演 (Storyboard &amp; Motion Breakdown)</h2>
+</div>
+<span class="font-label-mono text-label-mono text-outline">
+            SHOWCASING 4 CRITICAL GENERATION SEQUENCES
+          </span>
+</div>
+<!-- 4-Shot Grid Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Shot 01 -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden flex flex-col shadow-md hover:bg-surface-container hover:-translate-y-1 transition-all group">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Cinematic macro shot of dark magnetic ferrofluid nano-particles congregating and forming organic crystalline ribs on the exterior of a titanium deep-space ark vessel. Ambient cold cyan lighting with sharp purple edge illumination, 8k resolution, cinematic motion blur." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUhIGeCmb82O-D3ZFwqgHbfEe3iSdDSriDzpLRtPALJUOnPnZQdyEDJVrsGwiQAqsOkbtq7S7iB-_G4Hn8TuGRuAgnF7zpHJPduBnNl67HlPpinEhUpQzzwjEiO8fp2bLpD4ldT_hHttmm5FoSRT9jZHViHiJI5tXeYrlKP-I7u3qiCuhpBNnUt_whgmhEKomIbQ2f1fkia_atPs6GUr3QHF6PGYgxgUXz1aXFiEM"/>
+<div class="absolute top-2 left-2 px-space-xs py-0.5 rounded bg-surface-container-lowest/80 backdrop-blur-md font-label-mono text-label-mono text-tertiary">
+                00:18
+              </div>
+<div class="absolute top-2 right-2 px-space-xs py-0.5 rounded bg-primary/20 backdrop-blur-md font-label-caps text-[9px] text-primary">
+                KLING 1.5
+              </div>
+<div class="absolute bottom-2 left-2 right-2 flex items-center gap-1 text-[11px] font-label-mono text-on-surface bg-surface-container-lowest/90 px-2 py-1 rounded backdrop-blur-md">
+<span class="material-symbols-outlined text-[14px] text-tertiary">arrow_upward</span>
+<span>缓慢前推拉升 (Slow Dolly In &amp; Crane Up)</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs flex-grow justify-between">
+<div>
+<span class="font-label-mono text-label-mono text-outline">场景一</span>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface">虚空苏醒 (Void Awakening)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant pt-1 leading-snug">
+                  纳米流体在深空方舟外壳汇聚成形态。运用 Kling 1.5 首尾帧控制锁定流体形态相变终点。
+                </p>
+</div>
+<div class="pt-space-xs font-label-mono text-[11px] text-primary">
+                Vector: [X:0.0, Y:+1.2, Z:+3.5]
+              </div>
+</div>
+</div>
+<!-- Shot 02 -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden flex flex-col shadow-md hover:bg-surface-container hover:-translate-y-1 transition-all group">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Wide angle cinematic view of a gigantic brutalist extraterrestrial mega-ark floating near a shattered gas planet with purple rings. Tiny research spacecraft gliding along its glowing neon cyan structural trenches, anamorphic lens flare, epic scale, photorealistic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2Rpn9GvpNwzluy2h2bxpBnv5nEiIQeY9mcz_NykNAeOyN5j8iJOJcikLYLnPEwZMoJQFGlMAryNxq6vXjLoaOGzjAGB0s092yZucIPPOiPwsfHpcEdZWatBjdgrB-poLOWAlowTvjWhrguJMtE3zhhrQOM9lKZ8N7JZv4jxcE-bp-PDfnly6_8UPoxJKsoNra37nR1ifIjXn8MaEJtWUyHGkqoKRO3Ymlvkd65Do"/>
+<div class="absolute top-2 left-2 px-space-xs py-0.5 rounded bg-surface-container-lowest/80 backdrop-blur-md font-label-mono text-label-mono text-tertiary">
+                00:54
+              </div>
+<div class="absolute top-2 right-2 px-space-xs py-0.5 rounded bg-primary/20 backdrop-blur-md font-label-caps text-[9px] text-primary">
+                GEN-3 ALPHA
+              </div>
+<div class="absolute bottom-2 left-2 right-2 flex items-center gap-1 text-[11px] font-label-mono text-on-surface bg-surface-container-lowest/90 px-2 py-1 rounded backdrop-blur-md">
+<span class="material-symbols-outlined text-[14px] text-primary">sync</span>
+<span>超广角俯仰盘旋 (Orbital Pan 360°)</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs flex-grow justify-between">
+<div>
+<span class="font-label-mono text-label-mono text-outline">场景二</span>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface">巨构方舟 (The Monolith Ark)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant pt-1 leading-snug">
+                  尺度对比极强的巨型太空建筑与微型探测器。使用 Runway Gen-3 环绕摄影模式保持几何结构稳定性。
+                </p>
+</div>
+<div class="pt-space-xs font-label-mono text-[11px] text-tertiary">
+                Camera: Orbital Yaw 35° / Roll 0°
+              </div>
+</div>
+</div>
+<!-- Shot 03 -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden flex flex-col shadow-md hover:bg-surface-container hover:-translate-y-1 transition-all group">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Macro extreme close-up of a biomechanical neural cybernetic core pulsing with quantum optical fiber connections and purple electric neurotransmitters. High depth of field, neon cyan data packets traveling along translucent biological tendrils, sci-fi concept art." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqfqCYCUpjRLXYmaJLmbM3Q19Ajd_T67c5PyibbHiFODKPYlStCSuXNY57SUVM7LU13eqMrvmB0_o5nadJK5N0WIxp1FIGrlId2hvIOcvw7XefTzxx9sl2EEt-qBp5yv2uHu89EdTH4WkdlQ3-AHCSQ8P3DqmDJDN3drrpFMB1xZtQm1VabX4Mc-DRM4xESUZjhfV7ozGVTfgikSUe3FCc5EQu39uSw9yF04hGGgw"/>
+<div class="absolute top-2 left-2 px-space-xs py-0.5 rounded bg-surface-container-lowest/80 backdrop-blur-md font-label-mono text-label-mono text-tertiary">
+                01:36
+              </div>
+<div class="absolute top-2 right-2 px-space-xs py-0.5 rounded bg-primary/20 backdrop-blur-md font-label-caps text-[9px] text-primary">
+                MJ + CONTROLNET
+              </div>
+<div class="absolute bottom-2 left-2 right-2 flex items-center gap-1 text-[11px] font-label-mono text-on-surface bg-surface-container-lowest/90 px-2 py-1 rounded backdrop-blur-md">
+<span class="material-symbols-outlined text-[14px] text-tertiary">zoom_in</span>
+<span>微距光速穿梭 (Hyper-lapse Zoom)</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs flex-grow justify-between">
+<div>
+<span class="font-label-mono text-label-mono text-outline">场景三</span>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface">神经突触 (Neural Synapse)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant pt-1 leading-snug">
+                  赛博格生化核心内部的量子信息流。通过 Midjourney 深度图与 ControlNet Depth 确保空间纵深真实。
+                </p>
+</div>
+<div class="pt-space-xs font-label-mono text-[11px] text-primary">
+                Focal: 100mm Macro / Optical Flow
+              </div>
+</div>
+</div>
+<!-- Shot 04 -->
+<div class="bg-surface-container-low rounded-xl overflow-hidden flex flex-col shadow-md hover:bg-surface-container hover:-translate-y-1 transition-all group">
+<div class="relative w-full aspect-[16/10] overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Grand celestial climax scene showing a vibrant violet solar flare breaking through an opaque gaseous nebula, casting radiant cyan and golden god rays over a colossal cybernetic Dyson sphere matrix in deep outer space, ultra-wide cinematographic view." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUsCRJygSf1hCMxO0VgBz8Ldxn4OXrY9Ruq-KP20C6xHcNMp55RPzCyUrFFnbtQlgZntYOhn6_5S677o91YQPjNGU_lvWfEJ6BmkhwX6rFiXULmVpfDU5EB_LSDtYBuwD9DLo3s1KDBCCtY2QCp_h_3_FbqeOsVGxapZljlp7Ih_ZGk5XsG6R_7QTpx6K1h7SC2wkH80hwyQiFtcJv-n4Ko8wh3BZ9VibzH3gJzww"/>
+<div class="absolute top-2 left-2 px-space-xs py-0.5 rounded bg-surface-container-lowest/80 backdrop-blur-md font-label-mono text-label-mono text-tertiary">
+                02:20
+              </div>
+<div class="absolute top-2 right-2 px-space-xs py-0.5 rounded bg-primary/20 backdrop-blur-md font-label-caps text-[9px] text-primary">
+                MOTION BRUSH
+              </div>
+<div class="absolute bottom-2 left-2 right-2 flex items-center gap-1 text-[11px] font-label-mono text-on-surface bg-surface-container-lowest/90 px-2 py-1 rounded backdrop-blur-md">
+<span class="material-symbols-outlined text-[14px] text-primary">arrow_downward</span>
+<span>史诗平移拉远 (Epic Pull-back Reveal)</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-xs flex-grow justify-between">
+<div>
+<span class="font-label-mono text-label-mono text-outline">场景四</span>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface">纪元黎明 (Genesis Dawn)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant pt-1 leading-snug">
+                  恒星辐射撕破星云照亮新生矩阵。Runway Gen-3 运动笔刷独立指定星云扩散速率与光束穿透速度。
+                </p>
+</div>
+<div class="pt-space-xs font-label-mono text-[11px] text-tertiary">
+                Dynamic: Zoom -4.5 / Flare Speed 8
+              </div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. AI Video Generation Pipeline & Motion Control (管线与运镜工程) -->
+<section class="flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-caps text-label-caps text-tertiary tracking-widest uppercase">制作方法</span>
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface">AI 生成全流程管线与镜头运镜工程</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
+            跨模型协同流水线打破了单一 AI 生成工具在一致性、运镜抖动以及画面分辨率上的限制，形成标准化的工业级影视生产流。
+          </p>
+</div>
+<!-- 3-Phase Interactive Workflow Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Phase 1 -->
+<div class="bg-surface-container-low p-space-lg rounded-xl flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center justify-between">
+<span class="w-8 h-8 rounded-full bg-surface-container text-tertiary flex items-center justify-center font-label-mono text-label-mono font-bold">01</span>
+<span class="font-label-caps text-label-caps text-primary tracking-widest uppercase">画面锚定</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">文本与多模态世界观生成</h3>
+<span class="font-label-mono text-label-mono text-outline">提示词与关键帧</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              利用 GPT-4 拆解视觉分镜脚本，生成标准化镜头提示词拓扑。Midjourney v6 结合精确色彩与材质关键词，输出 8K 关键主帧（Keyframe），锁定每一个关键场景的高精度光照向量与赛博肌理。
+            </p>
+<div class="pt-space-xs flex flex-col gap-1.5 font-label-mono text-[12px] text-on-surface">
+<div class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span><span>GPT-4 语义分镜解析与提示拓扑化</span></div>
+<div class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span><span>Midjourney v6 角色与环境一致性种子锚定</span></div>
+</div>
+</div>
+<!-- Phase 2 -->
+<div class="bg-surface-container-low p-space-lg rounded-xl flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center justify-between">
+<span class="w-8 h-8 rounded-full bg-surface-container text-primary flex items-center justify-center font-label-mono text-label-mono font-bold">02</span>
+<span class="font-label-caps text-label-caps text-tertiary tracking-widest uppercase">动态生成</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">运动笔刷与首尾帧插值控制</h3>
+<span class="font-label-mono text-label-mono text-outline">画面运动设计</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              依托 Kling 1.5 的起终帧插值约束与 Runway Gen-3 的三维物理摄像机参数（Pan, Tilt, Zoom, Roll），对画面中的纳米流体与宇宙尘埃分配局部 Motion Brush 笔刷权重，从根本上剔除 AI 画面融化与骨骼形变。
+            </p>
+<div class="pt-space-xs flex flex-col gap-1.5 font-label-mono text-[12px] text-on-surface">
+<div class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span><span>Camera Motion 空间运动矢准确定位</span></div>
+<div class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span><span>Motion Brush 分区域动力学控制（流体/烟雾）</span></div>
+</div>
+</div>
+<!-- Phase 3 -->
+<div class="bg-surface-container-low p-space-lg rounded-xl flex flex-col gap-space-md shadow-sm">
+<div class="flex items-center justify-between">
+<span class="w-8 h-8 rounded-full bg-surface-container text-tertiary flex items-center justify-center font-label-mono text-label-mono font-bold">03</span>
+<span class="font-label-caps text-label-caps text-primary tracking-widest uppercase">成片制作</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">运动补偿、超分与 60FPS 插帧</h3>
+<span class="font-label-mono text-label-mono text-outline">画质与动态处理</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              经 Topaz Video AI 进行 4X 4K 超分辨率锐化修复与 Proteus 神经网络模型降噪，剔除扩散过程中的微噪波。结合 RIFE 光流矢量算法将 24FPS 平滑补帧至 60FPS，消灭 AI 视频运动中的抽搐颤抖。
+            </p>
+<div class="pt-space-xs flex flex-col gap-1.5 font-label-mono text-[12px] text-on-surface">
+<div class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span><span>Topaz Proteus 细部纹理高阶增强</span></div>
+<div class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span><span>RIFE 光流补帧至 60FPS 顺滑母带标准</span></div>
+</div>
+</div>
+</div>
+<!-- Visual Prompt Terminal / Code Snippet Box -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-lg flex flex-col">
+<!-- Terminal Header -->
+<div class="bg-surface-container-high px-space-md py-space-xs flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-error inline-block"></span>
+<span class="w-3 h-3 rounded-full bg-tertiary inline-block"></span>
+<span class="w-3 h-3 rounded-full bg-primary inline-block"></span>
+<span class="font-label-mono text-label-mono text-on-surface-variant ml-2">PROMPT_KERNEL_LOG // CAMERA_TRAJECTORY_V3.JSON</span>
+</div>
+<button class="flex items-center gap-1 font-label-caps text-label-caps text-primary hover:text-on-surface transition-colors cursor-pointer" id="copy-prompt-btn" onclick="navigator.clipboard.writeText(document.getElementById('prompt-text').innerText); this.innerHTML='&lt;span class=\'material-symbols-outlined text-[14px]\'&gt;check&lt;/span&gt; COPIED!'; setTimeout(() =&gt; this.innerHTML='&lt;span class=\'material-symbols-outlined text-[14px]\'&gt;content_copy&lt;/span&gt; COPY PROMPT', 2000);">
+<span class="material-symbols-outlined text-[14px]">content_copy</span>
+<span>复制提示词</span>
+</button>
+</div>
+<!-- Terminal Code Content -->
+<div class="p-space-lg font-label-mono text-label-mono text-on-surface overflow-x-auto leading-relaxed select-all">
+<p class="text-outline-variant"># PROMPT SYNCHRONIZER: RUNWAY GEN-3 × KLING 1.5</p>
+<p class="text-tertiary pt-1" id="prompt-text">
+              /video prompt: <span class="text-primary">An epic sci-fi monolithic titan awakening in deep cosmic void</span>, cinematic 65mm anamorphic lens, shallow depth of field, slow dramatic camera dolly forward, cyan volumetric atmospheric god rays, electric purple particle dust floating, photorealistic textures, metallic chrome reflection, volumetric nebula, octane render style, highly detailed 8k --motion 5 --camera dolly-in --aspect 21:9 --fps 24
+            </p>
+<div class="pt-space-sm flex items-center gap-space-lg text-outline text-[11px] flex-wrap">
+<span>SEED: 884729104</span>
+<span>SAMPLER: DPM++ 2M Karras</span>
+<span>CFG SCALE: 7.5</span>
+<span>STEPS: 40</span>
+<span>MOTION BRUSH: [Mask_01: Velocity(0.0, 1.4)]</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. Post-Production & Color Grading Suite (剪辑、合成与调色) -->
+<section class="flex flex-col gap-space-lg">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-caps text-label-caps text-primary tracking-widest uppercase">后期制作</span>
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface">后期剪辑、多轨道合成与达芬奇调色</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Post 1 -->
+<div class="bg-surface-container-low p-space-lg rounded-xl flex flex-col gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">tune</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">调色节点与胶片质感 (Color Grading)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                在 DaVinci Resolve 中构建针对 AI 生成素材的胶片仿真节点树（Node Tree）。还原柯达 5219 真实 35mm 胶片微细颗粒感，实施 Arri Alexa 709 to Sci-Fi Cyan/Purple 定制色彩科学映射，压制高光死白，提亮暗部微弱冷光。
+              </p>
+</div>
+<div class="p-space-sm rounded bg-surface-container font-label-mono text-[11px] text-tertiary flex items-center justify-between">
+<span>LUT: Cyber_Cold_P3_Film.cube</span>
+<span class="text-outline">Rec.709 D65</span>
+</div>
+</div>
+<!-- Post 2 -->
+<div class="bg-surface-container-low p-space-lg rounded-xl flex flex-col gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[22px]">surround_sound</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">音效声场设计 (Spatial Sound &amp; FX)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                运用 Suno AI 调校情绪氛围管弦垫底，导入 Ableton Live 进行 5.1 环绕声混音架构。采集巨构机械开合的声音特征，叠加 30Hz 超低音次声波轰鸣与模拟太空真空静谧的高频蜂鸣，构建极具身临其境的视听压迫。
+              </p>
+</div>
+<div class="p-space-sm rounded bg-surface-container font-label-mono text-[11px] text-primary flex items-center justify-between">
+<span>AUDIO: 24bit / 96kHz Lossless</span>
+<span class="text-outline">Sub-bass 32Hz</span>
+</div>
+</div>
+<!-- Post 3 -->
+<div class="bg-surface-container-low p-space-lg rounded-xl flex flex-col gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">text_fields</span>
+</div>
+<div class="flex flex-col gap-1">
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface">包装排版与 HUD (Cinematic Graphics)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+                遵循严苛的瑞士网格排版系统，为预告片注入工业级片头字标、动态坐标测距 HUD、量子数据流动画。在 After Effects 中使用跟踪点锚定 AI 生成场景中的空间三维坐标，达到虚实交融的院线预告片质感。
+              </p>
+</div>
+<div class="p-space-sm rounded bg-surface-container font-label-mono text-[11px] text-tertiary flex items-center justify-between">
+<span>GRAPHICS: Swiss Precision Type</span>
+<span class="text-outline">AE Tracking 3D</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. Personal Impact & Key Deliverables (个人贡献与核心指标) -->
+<section class="bg-surface-container-low rounded-xl p-space-xl md:p-space-xxl shadow-lg relative overflow-hidden">
+<div class="absolute -right-20 -top-20 w-80 h-80 bg-primary/10 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="flex flex-col gap-space-xl relative z-10">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-caps text-label-caps text-tertiary tracking-widest uppercase">交付成果</span>
+<h2 class="font-headline-md text-headline-md font-bold text-on-surface">个人统筹贡献与核心交付成果</h2>
+</div>
+<!-- 3 Stat Counters -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Metric 1 -->
+<div class="flex flex-col gap-space-xs bg-surface-container p-space-lg rounded-lg">
+<span class="font-display-hero text-display-hero text-primary font-bold tracking-tight">100%</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">全流程独立闭环统筹</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                从剧本世界观构思、Midjourney 分镜图基底生成、Runway/Kling 动态视频调优，到最终达芬奇调色与环绕音频设计，由个人独立端到端交付。
+              </p>
+</div>
+<!-- Metric 2 -->
+<div class="flex flex-col gap-space-xs bg-surface-container p-space-lg rounded-lg">
+<span class="font-display-hero text-display-hero text-tertiary font-bold tracking-tight">72+</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">工业级分镜与精选镜头</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                全案生成实验镜头超过 480 个，经 85% 严选淘汰率，最终成片凝聚 72 个极高质量镜头，保证叙事节奏与视觉冲击无断层。
+              </p>
+</div>
+<!-- Metric 3 -->
+<div class="flex flex-col gap-space-xs bg-surface-container p-space-lg rounded-lg">
+<div class="flex items-baseline gap-2">
+<span class="font-display-hero text-display-hero text-on-surface font-bold tracking-tight">4K</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">60FPS</span>
+</div>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">院线级 HDR 母带全交付</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                交付文件包括 ProRes 422 HQ 院线母带、分轨音频 Stem 包、4K 分辨率无压缩分镜全套资产，达到国际电影节提案与商业展陈规格。
+              </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 9. Project Navigation & Conversion Footer -->
+<section class="flex flex-col gap-space-xxl pt-space-md">
+<!-- Inter-Project Previous / Overview / Next Navigator -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter bg-surface-container-low p-space-md rounded-xl items-center">
+<!-- Previous Project Link -->
+<a class="flex items-center gap-space-sm p-space-sm rounded-lg hover:bg-surface-container transition-all group" href="#">
+<span class="material-symbols-outlined text-[24px] text-outline group-hover:text-primary group-hover:-translate-x-1 transition-all">arrow_back</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-mono text-[11px] text-outline uppercase">上一个项目</span>
+<span class="font-title-editorial text-title-editorial text-on-surface truncate group-hover:text-primary transition-colors">
+                SYNTHESIS LAB / 跨维度品牌系统全案
+              </span>
+</div>
+</a>
+<!-- Center All Works Link -->
+<div class="flex justify-center order-first md:order-none py-space-xs md:py-0">
+<a class="px-space-md py-space-xs rounded bg-surface-container hover:bg-surface-container-high text-on-surface font-label-caps text-label-caps tracking-widest uppercase transition-colors flex items-center gap-space-xs" href="#">
+<span class="material-symbols-outlined text-[16px] text-tertiary">apps</span>
+<span>作品总览</span>
+</a>
+</div>
+<!-- Next Project Link -->
+<a class="flex items-center justify-end gap-space-sm p-space-sm rounded-lg hover:bg-surface-container transition-all text-right group" href="#">
+<div class="flex flex-col min-w-0">
+<span class="font-label-mono text-[11px] text-outline uppercase">下一个项目</span>
+<span class="font-title-editorial text-title-editorial text-on-surface truncate group-hover:text-tertiary transition-colors">
+                AURA ZERO / 新能源旗舰概念广告
+              </span>
+</div>
+<span class="material-symbols-outlined text-[24px] text-outline group-hover:text-tertiary group-hover:translate-x-1 transition-all">arrow_forward</span>
+</a>
+</div>
+<!-- Conversion & Direct Inquire Banner -->
+<div class="w-full bg-gradient-to-r from-surface-container-low via-surface-container to-surface-container-low rounded-xl p-space-xl md:p-space-xxl shadow-xl flex flex-col lg:flex-row items-center justify-between gap-space-xl">
+<div class="flex flex-col gap-space-xs text-center lg:text-left">
+<span class="font-label-caps text-label-caps text-tertiary tracking-widest uppercase">一起创作影像作品</span>
+<h3 class="font-headline-lg text-headline-lg font-bold text-on-surface">期待探讨 AI 影视与先锋视觉探索</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+              提供从科幻概念世界观企划、AI 动态分镜测试，到全流程视频导演与 4K 高保真输出的商业与艺术合作。
+            </p>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-space-md w-full sm:w-auto">
+<a class="w-full sm:w-auto inline-flex items-center justify-center px-space-xl py-space-md rounded-lg bg-primary text-on-primary font-title-editorial text-title-editorial hover:bg-primary-fixed hover:text-on-primary-fixed transition-all shadow-[0_0_24px_rgba(208,188,255,0.3)]" href="#">
+<span>发起项目咨询 INQUIRE</span>
+<span class="material-symbols-outlined ml-2 text-[18px]">send</span>
+</a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center px-space-xl py-space-md rounded-lg bg-surface-container-high text-on-surface font-title-editorial text-title-editorial hover:bg-surface-bright transition-colors" href="#">
+<span>查看完整视频库 WATCH REEL</span>
+<span class="material-symbols-outlined ml-2 text-[18px]">smart_display</span>
+</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+<!-- Interactive JavaScript for Master Video Play Trigger Micro-interaction -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const playBtn = document.getElementById('master-play-btn');
+      if (playBtn) {
+        let isPlaying = false;
+        playBtn.addEventListener('click', () => {
+          isPlaying = !isPlaying;
+          const icon = playBtn.querySelector('.material-symbols-outlined');
+          if (icon) {
+            icon.textContent = isPlaying ? 'pause' : 'play_arrow';
+          }
+          if (isPlaying) {
+            playBtn.classList.add('shadow-[0_0_50px_rgba(106,211,255,0.7)]');
+          } else {
+            playBtn.classList.remove('shadow-[0_0_50px_rgba(106,211,255,0.7)]');
+          }
+        });
+      }
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest mt-auto relative shadow-[0_-1px_0_rgba(109,59,215,0.25)]"><div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-space-xxl"><div class="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-space-xxl"><div class="md:col-span-5 flex flex-col gap-space-md"><div class="flex items-center gap-space-md"><img alt="GAO HENG Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrDQcd9Mneg2Odtnj22E_F_7E9F1biMQiIpgwhL1_RDoMSVHLIQmnYc9vBDreg1GEeNjUzI1_euZZvYAuH03kbPDtIbR3ahp0ANrF_MYPu1yIE9_Z8PmHHBJoWlWp2QGj3K76Eay0mqdknPNFtDnS7uaH9SDcklndIfEz8EPlvmP2iEFfB-pY1dz0LiEDYML8Yw9WlhOPpq_WoTAsMXbTpuYxum98THIciO2jxW2FT-M"/><span class="font-headline-sm text-headline-sm text-on-surface font-bold">GAO HENG</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">专注短视频剪辑、视觉设计与AI影像创作。</p><div class="flex items-center gap-space-md pt-space-xs"><span class="px-space-sm py-space-xs rounded-full bg-surface-container text-tertiary font-label-caps text-label-caps uppercase">欢迎合作</span></div></div><div class="md:col-span-3 flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps text-tertiary uppercase tracking-widest mb-space-xs">探索</span><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="index.html">首页</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="about.html">关于我</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="works" href="works.html">精选作品</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="design" href="design.html">设计与视觉</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="video" href="video.html">视频作品</a></div><div class="md:col-span-4 flex flex-col gap-space-sm"><span class="font-label-caps text-label-caps text-tertiary uppercase tracking-widest mb-space-xs">联系方式</span><div class="flex flex-col gap-space-xs"><span class="font-label-mono text-label-mono text-outline">合作咨询</span><span class="font-body-sm text-body-sm text-on-surface">1959982067@qq.com</span></div><div class="flex flex-col gap-space-xs"><span class="font-label-mono text-label-mono text-outline">微信</span><a class="font-body-sm text-body-sm text-on-surface hover:text-primary" href="contact.html">扫码联系</a></div><div class="pt-space-xs"><a class="inline-flex items-center gap-space-xs font-title-editorial text-title-editorial text-primary hover:text-primary-fixed transition-colors" href="#"><span class="material-symbols-outlined text-[16px]">download</span><span>个人简历</span></a></div></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md shadow-[0_-1px_0_rgba(73,68,84,0.3)]"><span class="font-label-mono text-label-mono text-outline">© 高恒 · 内容创作者</span><span class="font-label-mono text-label-mono text-outline">用创意连接影像与想象</span></div></div></footer></body></html>
