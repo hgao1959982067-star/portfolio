@@ -1,0 +1,23 @@
+/* Warm paper and sky palette for the portfolio's interior pages. */
+html{color-scheme:light}
+body{background:radial-gradient(ellipse at 90% 4%,#cde7f399,transparent 36%),linear-gradient(160deg,#f6f0e6,#f1e9dc 60%,#e6f0f2)!important;color:#302a26!important;background-attachment:fixed}
+nav{background:#f7f1e8ed!important;border-color:#b7c9c9!important;color:#302a26}
+.hero{background:radial-gradient(ellipse at 80% 12%,#badfecb8,transparent 55%),linear-gradient(135deg,#f8f1e6,#e8f2f4)!important;color:#302a26}
+.eyebrow,.kicker{color:#396c7d!important}
+.hero p,.heading p,.intro,.card p,#about p{color:#504d48!important}
+.hero img{box-shadow:0 20px 50px #42657538!important;outline:1px solid #aabbb74d!important}
+.button{background:#497f90!important;color:#fff!important}.button:hover{background:#315e6d!important}
+.category,.section,details,footer{border-color:#aabbb7!important}
+#about{background:#e2eff1!important;border-color:#aabbb7!important}
+footer{background:#e9e1d5!important;color:#514a43!important}
+.card{background:#fffaf2df!important;border-color:#b8cecf!important;box-shadow:0 10px 28px #597b8212}
+.email,.doc{color:#315d6b!important}.action,.doc,.script-reader summary{border-color:#7698a0!important;color:#31535e!important}
+.action:hover,.doc:hover,.script-reader summary:hover{background:#d7eaf0!important;color:#233e46!important}
+.tag{border-color:#7fa7b2!important;color:#315c68!important;background:#ffffff88}
+figure{background:#f9f6ef!important}.grid figcaption{background:#e8f0ef!important;color:#33484b!important}.gallery figcaption{color:#4f5a59!important}
+body>main>article,.script-content{background:#fffaf3!important;color:#302a26!important;box-shadow:0 8px 28px #526f7812}
+body>main>article a,body>nav a{color:#315d6b}
+td,th{border-color:#a9bdbd!important}
+.document-overlay .document-panel{background:#f6f0e6!important;border-color:#aebfc0!important;color:#302a26!important}
+.document-overlay .document-inline{color:#302a26!important}
+.document-overlay .document-close{background:#f5eee3!important;border-color:#6a858b!important;color:#2d4b54!important}
