@@ -21,3 +21,5 @@ td,th{border-color:#a9bdbd!important}
 .document-overlay .document-panel{background:#f6f0e6!important;border-color:#aebfc0!important;color:#302a26!important}
 .document-overlay .document-inline{color:#302a26!important}
 .document-overlay .document-close{background:#f5eee3!important;border-color:#6a858b!important;color:#2d4b54!important}
+
+body>nav{position:sticky;top:0;z-index:100;background:#f7f1e8;box-shadow:0 3px 16px #405e6418}
